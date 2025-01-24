@@ -65,7 +65,7 @@ const SubscriptionCard = () => {
     <div className={styles.container}>
       <div className={styles.inner_container}>
         <img
-          src={"/subscribe_icon.svg"}
+          src={"./subscribe_icon.svg"}
           alt="subscribe_icon"
           width={40}
           height={40}

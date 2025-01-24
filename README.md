@@ -10,7 +10,7 @@ Puedes acceder al sitio deployado en el siguiente: [Link](https://elamcano.githu
 
 ## Tecnologías utilizadas
 
-**Client**: NextJS, TypeScript, Pure CSS, EmailJS, Cloudinary, Toastify, Github Pages
+**Client**: NextJS, TypeScript, Module CSS, EmailJS, Cloudinary, Toastify, Github Pages
 
 ---
 
