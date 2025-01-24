@@ -4,6 +4,7 @@ import Input from "../input/Input";
 import styles from "./SubscriptionCard.module.css";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import emailjs from "emailjs-com";
 
 const SubscriptionCard = () => {
   const [email, setEmail] = useState<string>("");
@@ -32,6 +33,7 @@ const SubscriptionCard = () => {
           color: "#e6fc15",
         },
       });
+      sendEmail();
     } else {
       toast("Please enter a valid email.", {
         style: {
@@ -39,6 +41,24 @@ const SubscriptionCard = () => {
         },
       });
     }
+  };
+
+  const sendEmail = () => {
+    const templateParams = {
+      to_email: email, // Correo dinámico del destinatario
+    };
+
+    // Usar emailjs para enviar el correo
+    emailjs
+      .send(
+        "service_a6ftsu7",
+        "template_7h09g7l",
+        templateParams,
+        "7fXe3mz4O450r9z78"
+      )
+      .then((response) => {
+        console.log("Email sent successfully!", response);
+      });
   };
 
   return (
