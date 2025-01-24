@@ -1,0 +1,17 @@
+.footer {
+  color: var(--gray);
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+.link {
+  border: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: var(--main-hover);
+}
