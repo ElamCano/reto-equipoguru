@@ -2,6 +2,7 @@
   "name": "reto-equipodotguru",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/ElamCano/reto-equipoguru",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

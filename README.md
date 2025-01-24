@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+https://elamcano.github.io/reto-equipoguru/
 First, run the development server:
 
 ```bash
